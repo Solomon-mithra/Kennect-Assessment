@@ -1,4 +1,0 @@
-JSON Web Token is a proposed Internet standard for creating data 
-with optional signature and/or optional encryption whose payload
-holds JSON that asserts some number of claims. 
-
