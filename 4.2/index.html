@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>4.2 - Answer</title>
+		<style>
+            *{
+                width: 200px;
+            }
+
+			.shape{
+            background-color: coral;
+            }
+		</style>
+	</head>
+<body>
+
+<h1>Assessment 4.2 - Answer</h1>
+
+<div id="Jhon">
+                <input type="text" id="name" onfocus="myFunction()">
+                <p class="important">First Line</p>
+                <p class="important">Second Line</p>
+                <p class="nothing">Third Line</p>
+ </div>
+
+<script>
+
+function myFunction() {
+  const container = document.querySelector("#Jhon");
+  const boxes = container.querySelectorAll(".important");
+  for (const box of boxes) {
+  		box.classList.add('shape');
+	}
+}
+
+</script>
+
+</body>
+</html>
+
